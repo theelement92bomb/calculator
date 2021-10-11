@@ -208,16 +208,16 @@ export default {
       }
       this.tempdisplay = this.display;
     },
-    wipe(){
-      this.display= "";
-      this.tempdisplay= "";
-      this.memory= "";
-      this.operator= "";
-      this.calcdisplay= "";
-      this.clacmemory= "";
-      this.decimal= false;
-      this.clear= false;
-    }
+    wipe() {
+      this.display = "";
+      this.tempdisplay = "";
+      this.memory = "";
+      this.operator = "";
+      this.calcdisplay = "";
+      this.clacmemory = "";
+      this.decimal = false;
+      this.clear = false;
+    },
   },
 };
 </script>

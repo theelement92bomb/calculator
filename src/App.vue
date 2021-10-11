@@ -1,6 +1,10 @@
 <template>
-  <div id="nav"></div>
-  <router-view />
+  <div id="nav">
+    <router-link class="event-link" to="/">Calculator</router-link> |
+    <router-link class="event-link" to="/Map">Map</router-link> |
+    <router-link class="event-link" to="/Surprise">Surprise</router-link>
+    <router-outlet></router-outlet>
+  </div>
 </template>
 
 <style>
