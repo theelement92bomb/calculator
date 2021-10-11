@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-5"></div>
-      <div class="col-lg-2">
+      <div class="col-lg-3">
         <div class="row">
           <label for="display" style="color: white">__</label>
           <input type="numeric" name="display" disabled v-model="tempdisplay" />
