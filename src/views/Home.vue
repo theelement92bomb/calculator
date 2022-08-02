@@ -9,7 +9,7 @@
         </div>
         <div class="row">
           <div class="col-lg-2">
-            <button class="button btn btn-secondary" @click="appendDisplay(7)">
+            <button class="button btn btn-secondary" v-on:click="appendDisplay(7)">
               7
             </button>
           </div>
